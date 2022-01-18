@@ -1,0 +1,6 @@
+pytest
+pylint
+sensible
+jupyter
+pytest-cov
+pandas
