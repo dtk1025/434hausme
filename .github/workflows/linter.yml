@@ -11,7 +11,7 @@ jobs:
     users: actions/checkout@v2
     
     -name: Run linter
-    users: github/linter@v3
+    users: github/super-linter@v3
     env:
       DEFAULT_BRANCH: main
       GITHUB_TOKEN: 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
