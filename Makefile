@@ -4,7 +4,7 @@ install:
 	python -m pip install seaborn
 
 test:
-	python -m pytest -nbval haus_me_test.ipynb
+	python -m pytest --nbval haus_me_test.ipynb
 
 format:
 	black *.py
