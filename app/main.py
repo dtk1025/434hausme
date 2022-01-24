@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import jsonify
 
-app = Flask(https://8080-dot-3104625-dot-devshell.appspot.com/name/lion)
+app = Flask(__name__)
 
 @app.route('/')
 def hello():
